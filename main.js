@@ -46,7 +46,7 @@ function submitLove () {
                     i++;
                 },2000)
             })
-        },200000);
+        },150000);
         setInterval(function() {
             notiLove[0].classList.toggle('animate__animated');
             notiLove[0].classList.toggle('animate__heartBeat');
